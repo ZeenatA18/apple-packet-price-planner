@@ -32,7 +32,7 @@ console.log(appleCost.innerHTML)
 
  let profit__ =  profit_ /100
 
-noPackets.innerHTML = applePlanner.setBoxPrice(Number(box_Price.value)) / profit__
+noPackets.innerHTML = applePlanner.packet_no()
 
 
 })

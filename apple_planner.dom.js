@@ -24,7 +24,7 @@ applePlanner.setProfit(Number(profit_.value));
 
 // appleCost.innerHTML = applePlanner.setBoxPrice(Number(box_Price.value)) / applePlanner.setNoApples(Number(no_Apples.value));
 
-appleCost.innerHTML = applePlanner.setBoxPrice(Number(box_Price.value)) / applePlanner.setProfit(Number(profit_.value));
+appleCost.innerHTML = applePlanner.perApple();
 
 console.log(appleCost.innerHTML)
 

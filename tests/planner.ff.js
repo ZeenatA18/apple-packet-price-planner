@@ -41,6 +41,10 @@ function ApplePlanner() {
        return _noApples/_packetSize
     }
 
+    function perApple(){
+        return  _boxCost/_profit
+    }
+
     return {
         setBoxPrice,
         getBoxPrice,
@@ -50,6 +54,7 @@ function ApplePlanner() {
         getPacketSize, 
         setProfit,
         getProfit,
-        packet_no
+        packet_no,
+        perApple
     }
 }

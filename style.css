@@ -19,6 +19,8 @@ h2{
 .box_price{
     margin-top: 1em;
     margin-left: 10em;
+    background-color: white;
+    cursor: pointer;
 }
 
 .noapples{
@@ -29,7 +31,8 @@ h2{
 .No_apples{
     margin-top: 1em;
     margin-left: 11.5em;
-    
+    background-color: white;
+    cursor: pointer;
 }
 
 .packetsize{
@@ -40,6 +43,8 @@ h2{
 .packet_size{
     margin-top: 1em;
     margin-left: 7.5em;
+    background-color: white;
+    cursor: pointer;
 }
 
 ._profit{
@@ -50,13 +55,22 @@ h2{
 .profit{
     margin-top: 1em;
     margin-left: 16em;
+    background-color: white;
+    cursor: pointer;
 }
 
 .btn{
     text-align: right;
-    margin-right: 30em;
+    margin-right: 26.4em;
     margin-top: 1em;
     
+}
+
+._btn{
+    width: 10em;
+    height: 3em;
+    box-shadow: whitesmoke;
+    cursor: pointer;
 }
 
 .nopackets{
@@ -64,40 +78,21 @@ h2{
     justify-content: center;
 }
 
-/* .no_packets{
-    margin-top: 1em;
-    margin-left: 10em;
-} */
-
 .perapple{
     display: flex;
     justify-content: center;
 }
-
-/* .per_apple{
-    margin-top: 1em;
-    margin-left: 10em;
-} */
 
 .perpacket{
     display: flex;
     justify-content: center;
 }
 
-/* .per_packet{
-    margin-top: 1em;
-    margin-left: 10em;
-} */
-
 .packetprice{
     display: flex;
     justify-content: center;
 }
 
-/* .packet_price{
-    margin-top: 1em;
-    margin-left: 10em;
-} */
 
 .message{
     background-color: darkgrey;
@@ -131,3 +126,11 @@ h2{
     margin-left: 15em;
 }
 
+@media (max-width: 768px) {
+	.btn{
+        text-align: right;
+        margin-right: 1em;
+        margin-top: 1em;
+        
+    }
+}

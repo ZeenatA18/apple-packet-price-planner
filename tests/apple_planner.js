@@ -36,14 +36,42 @@ describe('Apple buying data', function() {
 		assert.equal(1, applePlanner.getProfit());
 	});
 
-    describe("Apple price calculation", function () {
-        it ('should allow to enter required profit', function() {
 
-            const applePlanner = ApplePlanner();
+    describe("Apple price calculation", function () {
+        // it ('should return number of packets', function() {
+
+        //     const applePlanner = ApplePlanner();
     
-            applePlanner.setProfit(1);
+        //     // applePlanner.setProfit(1);
     
-            assert.equal(1, applePlanner.getProfit());
-        });  
+        //     assert.equal(1, applePlanner.getProfit());
+        // });  
+
+        // it ('should return cost price per apple', function() {
+
+        //     const applePlanner = ApplePlanner();
+    
+        //     // applePlanner.setProfit(1);
+    
+        //     assert.equal(1, applePlanner.getProfit());
+        // });  
+
+        // it ('should return cost price per packet', function() {
+
+        //     const applePlanner = ApplePlanner();
+    
+        //     // applePlanner.setProfit(1);
+    
+        //     assert.equal(1, applePlanner.getProfit());
+        // });  
+
+        // it ('should return recommended packet price', function() {
+
+        //     const applePlanner = ApplePlanner();
+    
+        //     // applePlanner.setProfit(1);
+    
+        //     assert.equal(1, applePlanner.getProfit());
+        // });  
     });   
 });    

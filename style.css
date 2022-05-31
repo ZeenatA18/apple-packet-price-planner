@@ -28,7 +28,7 @@ h2{
 
 .No_apples{
     margin-top: 1em;
-    margin-left: 13em;
+    margin-left: 11.5em;
     
 }
 
@@ -39,7 +39,7 @@ h2{
 
 .packet_size{
     margin-top: 1em;
-    margin-left: 10em;
+    margin-left: 7.5em;
 }
 
 ._profit{
@@ -49,7 +49,7 @@ h2{
 
 .profit{
     margin-top: 1em;
-    margin-left: 10em;
+    margin-left: 16em;
 }
 
 .btn{
@@ -64,37 +64,70 @@ h2{
     justify-content: center;
 }
 
-.no_packets{
+/* .no_packets{
     margin-top: 1em;
     margin-left: 10em;
-}
+} */
 
 .perapple{
     display: flex;
     justify-content: center;
 }
 
-.per_apple{
+/* .per_apple{
     margin-top: 1em;
     margin-left: 10em;
-}
+} */
 
 .perpacket{
     display: flex;
     justify-content: center;
 }
 
-.per_packet{
+/* .per_packet{
     margin-top: 1em;
     margin-left: 10em;
-}
+} */
 
 .packetprice{
     display: flex;
     justify-content: center;
 }
 
-.packet_price{
+/* .packet_price{
+    margin-top: 1em;
+    margin-left: 10em;
+} */
+
+.message{
+    background-color: darkgrey;
+    width: 9em;
+    height: 3em;
     margin-top: 1em;
     margin-left: 10em;
 }
+
+.message1{
+    background-color: darkgrey;
+    width: 9em;
+    height: 3em;
+    margin-top: 1em;
+    margin-left: 13em;
+}
+
+.message2{
+    background-color: darkgrey;
+    width: 9em;
+    height: 3em;
+    margin-top: 1em;
+    margin-left: 14em;
+}
+
+.message3{
+    background-color: darkgrey;
+    width: 9em;
+    height: 3em;
+    margin-top: 1em;
+    margin-left: 15em;
+}
+

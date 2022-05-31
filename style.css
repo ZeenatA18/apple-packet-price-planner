@@ -1,0 +1,100 @@
+*{
+    background-color: lightgrey;
+}
+
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.boxprice{
+    display: flex;
+    justify-content: center;
+}
+
+.box_price{
+    margin-top: 1em;
+    margin-left: 10em;
+}
+
+.noapples{
+    display: flex;
+    justify-content: center;
+}
+
+.No_apples{
+    margin-top: 1em;
+    margin-left: 13em;
+    
+}
+
+.packetsize{
+    display: flex;
+    justify-content: center;
+}
+
+.packet_size{
+    margin-top: 1em;
+    margin-left: 10em;
+}
+
+._profit{
+    display: flex;
+    justify-content: center;
+}
+
+.profit{
+    margin-top: 1em;
+    margin-left: 10em;
+}
+
+.btn{
+    text-align: right;
+    margin-right: 30em;
+    margin-top: 1em;
+    
+}
+
+.nopackets{
+    display: flex;
+    justify-content: center;
+}
+
+.no_packets{
+    margin-top: 1em;
+    margin-left: 10em;
+}
+
+.perapple{
+    display: flex;
+    justify-content: center;
+}
+
+.per_apple{
+    margin-top: 1em;
+    margin-left: 10em;
+}
+
+.perpacket{
+    display: flex;
+    justify-content: center;
+}
+
+.per_packet{
+    margin-top: 1em;
+    margin-left: 10em;
+}
+
+.packetprice{
+    display: flex;
+    justify-content: center;
+}
+
+.packet_price{
+    margin-top: 1em;
+    margin-left: 10em;
+}
